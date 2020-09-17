@@ -1,0 +1,18 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+@tailwind components;
+
+html {
+  @apply antialiased;
+  @apply text-base;
+  @apply text-black;
+  text-rendering: optimizeLegibility;
+}
+
+button:focus .outline-none {
+  @apply outline-none;
+}
+
+@tailwind utilities;
