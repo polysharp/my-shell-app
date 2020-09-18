@@ -114,7 +114,7 @@ const NavItems = () => (
 );
 
 const Navigation = () => (
-  <div className="sticky inset-x-0 top-0 z-50 bg-white">
+  <div className="w-full bg-white">
     <NavActions />
     <NavItems />
   </div>
