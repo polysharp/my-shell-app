@@ -1,10 +1,13 @@
 import React from 'react';
-import { useStore } from '../store';
 
-const IndexPage = () => {
-  const store = useStore();
-
-  return <button type="button">{store.user.authenticated ? 'OUI' : 'NON'}</button>;
-};
+const IndexPage = () => (
+  <>
+    <div>meta seo</div>
+    <main>
+      <div className="h-screen" />
+      <div className="h-screen" />
+    </main>
+  </>
+);
 
 export default IndexPage;
