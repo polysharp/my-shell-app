@@ -11,7 +11,9 @@ const PrivateRoute = ({ component: Component, location, ...rest }) => {
   const store = useStore();
 
   if (!store.user.authenticated && location.pathname !== ACCOUNT_SIGNIN) {
-    navigate(ACCOUNT_SIGNIN);
+    if (typeof window !== 'undefined') {
+      navigate(ACCOUNT_SIGNIN);
+    }
     return null;
   }
 
