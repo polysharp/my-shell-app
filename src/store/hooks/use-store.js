@@ -8,6 +8,9 @@ import { StoreContext } from '../components';
  *  user: {
  *    authenticated: boolean
  *  }
+ * cart: {
+ *    products: array
+ * }
  *}} Root store hook
  */
 const useStore = () => useContext(StoreContext) || null;
