@@ -1,0 +1,15 @@
+{
+  "products": [
+    {
+      "slug": "31a7c6e7-2e44-4c86-a897-3f134447f738",
+      "ref": "31a7c6e7-2e44-4c86-a897-3f134447f738",
+      "name": "Coque silicone Iphone 11",
+      "subname": "Coque de protection durable + certifié MFi",
+      "price": 1050,
+      "rate": {
+        "score": 4,
+        "count": 101
+      }
+    }
+  ]
+}
