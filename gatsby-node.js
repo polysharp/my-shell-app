@@ -1,9 +1,7 @@
 /* eslint-disable */
 const path = require('path');
-const axios = require('axios');
-const STRAPI_URL = 'https://kick-api.herokuapp.com';
 
-const mockData = require('./mcokData.json');
+const mockData = require('./mockData.json');
 
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions;
