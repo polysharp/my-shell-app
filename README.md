@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/707d322a-f001-458a-abc4-f5923eff584b/deploy-status)](https://polysharp-my-shell.netlify.app)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
